@@ -1,15 +1,16 @@
 {
-  "name": "electron-drag",
-  "version": "1.2.2",
-  "description": "Window dragging for electron applications",
+  "name": "electron-dpi-drag",
+  "version": "1.0.0",
+  "description": "Window dragging for electron applications.Fork from electron-drag",
   "main": "index.js",
   "scripts": {
     "test": "electron test/app.js",
-    "test-rebuild": "electron-rebuild"
+    "test-rebuild": "electron-rebuild",
+    "rebuild": "electron-rebuild -d=https://npm.taobao.org/mirrors/atom-shell"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kapetan/electron-drag"
+    "url": "https://github.com/SingleMai/electron-dpi-drag"
   },
   "keywords": [
     "electron",
@@ -19,9 +20,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kapetan/electron-drag/issues"
+    "url": "https://github.com/SingleMai/electron-dpi-drag/issues"
   },
-  "homepage": "https://github.com/kapetan/electron-drag",
+  "homepage": "https://github.com/SingleMai/electron-dpi-drag",
   "optionalDependencies": {
     "osx-mouse": "^1.3.0",
     "win-mouse": "^1.2.0"
